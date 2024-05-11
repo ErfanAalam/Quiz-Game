@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+body{
+    /* background: linear-gradient(to left,rgb(226, 116, 134),rgb(52, 133, 133)); */
+    background-image:url(./bgimage.webp) ;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+   
+    background-size: cover;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+
+button{
+    background: linear-gradient(to left,#7b1576d3,hsl(175.74deg 84.08% 39.41%));
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+    margin-left: 47%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+h3{
+    /* border: 1px solid black; */
+    background-color: #040404;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+hr{
+    transform: rotate(90deg);
+}
+
+
+#wrapper{
+    margin-top: 150px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 26px;
+    font-weight: bolder;
+    /* background:  linear-gradient(to left,#7b1576d3,hsl(175.74deg 84.08% 39.41%)); */
+    /* padding: 20px; */
+}
+
+
+#quiz{
+    width: 800px;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #7b1576d3;
+    gap: 20px;
+    position: relative;
+    /* top: -140px; */
+ }
+
+#timer{
+    border: 2px solid black;
+    border-radius: 45%;
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: hsl(175.74deg 84.08% 39.41%);
+    color: black;
+}
+
+.tracker{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.current{
+    background-color: rgb(143, 43, 148);
+}
+
